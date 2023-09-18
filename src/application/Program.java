@@ -1,7 +1,10 @@
 package application;
 
+import boardgame.Position;
+
 public class Program {
     public static void main(String[] args) {
-        System.out.println("Diogo Albuquerque");
+        Position pos = new Position(0, 5);
+        System.out.println(pos);
     }
 }
